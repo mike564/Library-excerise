@@ -121,10 +121,10 @@ function deleteBook(){
 }
 
 function toggleInputVisiblity(){
-    // document.getElementById('title').value="";
-    // document.getElementById('author').value="";
-    // document.getElementById('pages').value="";
-    // document.getElementById('read').value="none";
+    document.getElementById('title').value="";
+    document.getElementById('author').value="";
+    document.getElementById('pages').value="";
+    document.getElementById('read').value="none";
     inputSection.classList.toggle('input-visible1')
     window.setTimeout(function(){inputSection.classList.toggle('input-visible2');},10);
 }
